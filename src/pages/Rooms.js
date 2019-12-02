@@ -1,9 +1,6 @@
 import React from "react";
+import Home from "../components/Hero";
 
 export default function Rooms() {
-  return (
-    <div>
-      <h1>hello from the Rooms</h1>
-    </div>
-  );
+  return <Home hero="roomsHero" />;
 }
