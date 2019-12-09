@@ -300,9 +300,19 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
-  width: 60vw;
+  width: 40vw;
   margin: auto;
   margin-bottom: 2em;
+}
+@media screen and (min-width: 776px) {
+  .room {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  .room {
+    width: 60vw;
+  }
 }
 .room:hover {
   box-shadow: var(--darkShadow);

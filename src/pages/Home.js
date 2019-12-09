@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Service from "../components/service";
 import FeatureRooms from "../components/FeatureRoom";
+import StyledHero from "../components/styledHero";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </Hero>
       <Service></Service>
       <FeatureRooms />
+      {/* <StyledHero /> */}
     </>
   );
 }
